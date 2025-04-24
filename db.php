@@ -5,7 +5,7 @@ $conn = new mysqli (
     "localhost",
     "root",
     "",
-    "chat"
+    "auth"
 );
 
 if($conn->connect_error) {
